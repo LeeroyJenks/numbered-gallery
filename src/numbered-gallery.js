@@ -1,5 +1,5 @@
 (function($) {
-	$.fn.numberedGallery = function(options) {
+	$.fn.numberedSlider = function(options) {
 		var settings = $.extend({
 			exclude: null,
 			navType: "number"
@@ -43,7 +43,7 @@
 
 			var setupSlider = function(gal) {
 				var $g = $(gal);
-				$g.addClass('slider-container').append('<div class="slider' + (settings.navType == "number" ? ' number-nav' : ' thumb-nav') + '"><div class="slider-list" style="text-align: left; left: 50%; position: absolute;. display: block; white-space: nowrap;"></div><ul class="slider-nav"></ul></div>');
+				$g.addClass('slider-container').append('<div class="slider' + (settings.navType == "number" ? ' number-nav' : ' thumb-nav') + '"><div class="slider-list" style="text-align: left; left: 50%; position: absolute;. display: block; white-space: nowrap;"></div><ul class="slider-nav" style="list-style: none;display: block; position: absolute; bottom: 100%; left: 0;"></ul></div>');
 				var $s = $g.find('.slider');
 				var $l = $g.find('.slider-list');
 				var $n = $g.find('.slider-nav');
