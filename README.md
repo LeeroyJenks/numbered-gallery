@@ -86,14 +86,11 @@ Some CSS is required, as the nav is not styled. See the example below for what i
     }
 </style>
 
-<div class="gallery-container">
-    <div class="image-gallery">
-        <div class="image-container"><img src="IMAGE_ONE.jpg" alt="Image 1"/></div>
-        <div class="image-container"><img src="IMAGE_TWO.jpg" alt="Image 2"/></div>
-        <div class="image-container"><img src="IMAGE_THREE.jpg" alt="Image 3"/></div>
-    </div>
+<div class="image-gallery">
+    <div class="image-container"><img src="IMAGE_ONE.jpg" alt="Image 1"/></div>
+    <div class="image-container"><img src="IMAGE_TWO.jpg" alt="Image 2"/></div>
+    <div class="image-container"><img src="IMAGE_THREE.jpg" alt="Image 3"/></div>
 </div>
-
 
 <script>
     $(document).ready(function(){
