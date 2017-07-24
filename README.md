@@ -1,16 +1,16 @@
 # numbered-slider
 A slider gallery plugin with numbers or thumbnails for navigation and touch support.
 
-##Demo
+## Demo
 [plugins.getdans.info/numbered-slider](http://plugins.getdans.info/numbered-slider)
 
-##Installation
+## Installation
 Download from GitHub
 
-###Requirements
+### Requirements
 jQuery
 
-###Use
+### Use
 ```html
 <script>
     $(document).ready(function(){
@@ -18,11 +18,11 @@ jQuery
     });
 </script>
 ```
-###Description
+### Description
 
 Some CSS is required, as the nav is not styled. See the example below for what is used in the demo. A height has to be defined for the images within the gallery in order for the slider to work properly.
 
-###Example
+### Example
 
 ```html
 <style>
@@ -99,14 +99,14 @@ Some CSS is required, as the nav is not styled. See the example below for what i
 </script>
 ```
 
-###Options
+### Options
 
 Options   | Definition
 --------- | ------------------------------------------------------------------------ 
 `exclude` | Image container, if any, to exclude from gallery.<br>Can be class or id.
 `navType` | `"number", "thumb"`<br>`default:"number"` 
  
-###Methods
+### Methods
  
 Method      | Definition         
 ----------- | ------------------- 
